@@ -5,7 +5,7 @@ const svg = d3.select("svg"),
 	path = d3.geoPath(),
 	data = d3.map(),
 	worldmap = "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson",
-	worldpopulation = "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world_population.csv";
+	worldpopulation = "https://raw.githubusercontent.com/Permpol/Interest_Fx_v2/refs/heads/main/src/world_population.csv";
 
 let centered, world;
 
